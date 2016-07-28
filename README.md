@@ -1,6 +1,6 @@
 # alpine-maven
 Minimal Java/Maven Docker Images built on Alpine Linux
-Size: XX MB (All Layers: 152 MB)
+Size: 88 MB (All Layers: 152 MB)
 
 Layers:
 - alpine:3.4 5 MB
