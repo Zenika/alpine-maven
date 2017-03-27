@@ -1,4 +1,4 @@
-FROM zenika/alpine-maven
+FROM zenika/alpine-maven:3-jdk-8
 
 ONBUILD COPY pom.xml /usr/src/app/
 ONBUILD RUN mvn dependency:get && mvn deploy:deploy-file
