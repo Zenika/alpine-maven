@@ -16,9 +16,14 @@ Based on `java:8-alpine`
 
 Apache Maven is a software project management and comprehension tool. Based on the concept of a project object model (POM), Maven can manage a project's build, reporting and documentation from a central piece of information.
 
-See https://en.wikipedia.org/wiki/Apache_Maven for more information.
+> [wikipedia.org/wiki/Apache_Maven](https://en.wikipedia.org/wiki/Apache_Maven)
 
 ![Maven Logo](https://maven.apache.org/images/maven-logo-black-on-white.png)
+
+# Why this image
+
+We found some issues with the base image using the ca-certificates to download artefacts from `https` custom urls.
+We created this image to get a fully maven-ready image.
 
 # How to use this image
 
