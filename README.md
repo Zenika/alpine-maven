@@ -4,7 +4,7 @@ Minimal Java/Maven Docker Images built on Alpine Linux
 # Alpine version
 
 ```
-docker run --rm zenika/maven cat /etc/alpine-release
+docker run --rm zenika/alpine-maven cat /etc/alpine-release
 3.4.6
 ```
 
